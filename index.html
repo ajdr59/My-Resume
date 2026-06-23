@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jagadeka Reddy Avula | AWS DevOps Engineer</title>
+  <meta
+    name="description"
+    content="Jagadeka Reddy Avula - AWS DevOps Engineer and Platform Engineer with experience in Kubernetes, Terraform, EKS, GitOps, CI/CD, and AWS infrastructure."
+  />
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --primary: #0f766e;
+      --primary-dark: #0b5e57;
+      --border: #dbe3ea;
+      --chip-bg: #e6fffb;
+      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 980px;
+      margin: 32px auto;
+      padding: 24px;
+    }
+
+    .resume {
+      background: var(--surface);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #0f766e, #134e4a);
+      color: #ffffff;
+      padding: 36px 36px 28px;
+    }
+
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: 2.2rem;
+      line-height: 1.2;
+    }
+
+    .hero .title {
+      margin: 0 0 14px;
+      font-size: 1.05rem;
+      font-weight: bold;
+      opacity: 0.95;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      font-size: 0.95rem;
+    }
+
+    .contact a,
+    .contact span {
+      color: #ecfeff;
+    }
+
+    .content {
+      padding: 30px 36px 40px;
+    }
+
+    section {
+      margin-bottom: 28px;
+    }
+
+    section:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.1rem;
+      color: var(--primary-dark);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    .summary {
+      color: var(--muted);
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .chip {
+      background: var(--chip-bg);
+      color: var(--primary-dark);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 0.92rem;
+      border: 1px solid #b7efe8;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px 24px;
+    }
+
+    .skill-block {
+      background: #fafcff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+
+    .skill-block h3 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    .skill-block p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .job {
+      margin-bottom: 22px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .job:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+
+    .job-header h3 {
+      margin: 0;
+      font-size: 1.05rem;
+    }
+
+    .job-meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .footer-note {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 700px) {
+      .page {
+        margin: 0;
+        padding: 0;
+      }
+
+      .resume {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+      }
+
+      .hero,
+      .content {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        font-size: 1.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <main class="resume">
+      <header class="hero">
+        <h1>Jagadeka Reddy Avula</h1>
+        <p class="title">AWS DevOps Engineer | Platform Engineer | Kubernetes | Terraform | EKS</p>
+        <div class="contact">
+          <span>Hyderabad, India</span>
+          <span><a href="tel:+918499060138">+91 8499060138</a></span>
+          <span><a href="mailto:jagadekareddy98@gmail.com">jagadekareddy98@gmail.com</a></span>
+          <span>
+            <a href="[linkedin.com](https://linkedin.com/in/jagadeka-reddy-avula-8402ab169)" target="_blank" rel="noopener noreferrer">
+              LinkedIn Profile
+            </a>
+          </span>
+        </div>
+      </header>
+
+      <div class="content">
+        <section>
+          <h2>Professional Summary</h2>
+          <p class="summary">
+            AWS DevOps / Platform Engineer with nearly 5 years of experience building and automating
+            cloud infrastructure, GitOps-based delivery workflows, and Kubernetes platforms on AWS.
+            Strong hands-on expertise in Terraform, Amazon EKS, Kubernetes, Docker, ArgoCD, Jenkins,
+            GitHub Actions, AWS IAM, VPC, S3, RDS, CloudWatch, Prometheus, and Grafana. Experienced
+            in designing reusable IaC modules, managing multi-environment platform deployments, and
+            improving reliability, security, and developer productivity through automation.
+          </p>
+        </section>
+
+        <section>
+          <h2>Core Expertise</h2>
+          <div class="chips">
+            <span class="chip">AWS Infrastructure</span>
+            <span class="chip">Amazon EKS</span>
+            <span class="chip">Terraform</span>
+            <span class="chip">Kubernetes Operations</span>
+            <span class="chip">CI/CD Automation</span>
+            <span class="chip">GitOps</span>
+            <span class="chip">Docker</span>
+            <span class="chip">Observability</span>
+            <span class="chip">IAM</span>
+            <span class="chip">VPC</span>
+            <span class="chip">Secrets Management</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Technical Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-block">
+              <h3>Cloud</h3>
+              <p>AWS (EKS, EC2, VPC, IAM, S3, RDS, CloudWatch, Secrets Manager)</p>
+            </div>
+            <div class="skill-block">
+              <h3>Infrastructure as Code</h3>
+              <p>Terraform (reusable modules, workspaces, remote state management)</p>
+            </div>
+            <div class="skill-block">
+              <h3>Containers & Orchestration</h3>
+              <p>Docker, Kubernetes, Amazon EKS, OpenShift</p>
+            </div>
+            <div class="skill-block">
+              <h3>GitOps / Deployment</h3>
+              <p>ArgoCD, Kubernetes manifests</p>
+            </div>
+            <div class="skill-block">
+              <h3>CI/CD</h3>
+              <p>Jenkins, GitHub Actions</p>
+            </div>
+            <div class="skill-block">
+              <h3>Observability</h3>
+              <p>Prometheus, Grafana, Amazon CloudWatch, ELK Stack</p>
+            </div>
+            <div class="skill-block">
+              <h3>Configuration Management</h3>
+              <p>Ansible</p>
+            </div>
+            <div class="skill-block">
+              <h3>Scripting & Source Control</h3>
+              <p>Bash, Python, Git, GitHub</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Professional Experience</h2>
+
+          <article class="job">
+            <div class="job-header">
+              <h3>Technology Analyst | AWS DevOps / Platform Engineer</h3>
+              <strong>May 2023 - May 2026</strong>
+            </div>
+            <p class="job-meta">
+              <strong>Client:</strong> Toyota | <strong>Domain:</strong> Manufacturing<br />
+              <strong>Project:</strong> T-Nexus (Toyota Cloud Infrastructure Factory)
+            </p>
+            <ul>
+              <li>
+                Designed and implemented secure CI/CD workflows for AWS infrastructure and EKS deployments,
+                integrating Terraform plan validation, tflint checks, static analysis, and approval gates to
+                improve release governance and reduce deployment risk.
+              </li>
+              <li>
+                Built reusable Terraform modules to provision and manage AWS services including Amazon EKS,
+                EC2, S3, VPC, IAM, Secrets Manager, and CloudWatch, reducing infrastructure provisioning time by 60%.
+              </li>
+              <li>
+                Automated multi-environment infrastructure provisioning across development, QA, and production
+                using Terraform workspaces and parameterized configurations, improving consistency and reducing
+                configuration drift.
+              </li>
+              <li>
+                Supported Kubernetes platform operations by standardizing deployment patterns and improving
+                reliability for production workloads running on Amazon EKS.
+              </li>
+              <li>
+                Supported GitOps-based deployment workflows using ArgoCD for Kubernetes application delivery
+                and configuration consistency across environments.
+              </li>
+              <li>
+                Implemented centralized secrets management with AWS Secrets Manager, eliminating hardcoded
+                credentials from deployment pipelines and strengthening security posture.
+              </li>
+              <li>
+                Drove Infrastructure as Code adoption across teams, reducing manual provisioning errors by 80%
+                and improving repeatability of AWS platform deployments.
+              </li>
+              <li>
+                Collaborated with application and engineering teams to streamline deployment workflows and
+                improve platform usability for internal delivery teams.
+              </li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="job-header">
+              <h3>Senior Systems Engineer | AWS DevOps Engineer</h3>
+              <strong>June 2021 - April 2023</strong>
+            </div>
+            <p class="job-meta">
+              <strong>Client:</strong> General Motors | <strong>Domain:</strong> Automobile / Cloud Infrastructure<br />
+              <strong>Project:</strong> AutoMesh (Enterprise Microservices Transformation)
+            </p>
+            <ul>
+              <li>
+                Built and supported containerized application platforms on Amazon EKS and OpenShift,
+                enabling reliable multi-environment application deployments.
+              </li>
+              <li>
+                Designed multi-stage Docker builds that reduced image sizes by 50% and improved deployment efficiency.
+              </li>
+              <li>
+                Provisioned and maintained AWS infrastructure using Terraform across development, staging,
+                and production, improving deployment repeatability and reducing manual setup effort.
+              </li>
+              <li>
+                Managed Kubernetes resources including deployments, services, ConfigMaps, and Secrets for
+                automated application delivery.
+              </li>
+              <li>
+                Implemented observability using Prometheus, Grafana, ELK, and Amazon CloudWatch to support
+                cluster monitoring, alerting, and troubleshooting.
+              </li>
+              <li>
+                Automated environment configuration and operational tasks with Ansible, reducing manual effort
+                and improving consistency.
+              </li>
+              <li>
+                Supported rolling upgrades and production workload reliability for Kubernetes-based services.
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <p><strong>B.Tech in Electronics and Communication Engineering</strong></p>
+          <p>JNTU Anantapur | 2016 - 2020</p>
+        </section>
+
+        <section>
+          <h2>Availability</h2>
+          <p><strong>Location Preference:</strong> Hyderabad, Bangalore, Remote</p>
+          <p><strong>Current Status:</strong> Available to Join Immediately</p>
+        </section>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
